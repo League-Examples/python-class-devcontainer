@@ -1,0 +1,13 @@
+name: The Title of the Course, From the README Title
+description: Course description, from the README frontmatter
+module_dir: ..
+uid: eUraqfUM
+modules:
+- name: Module 1
+  lessons:
+  - name: Getting Started
+    exercise: 10_Module_1/10_Getting_Started.ipynb
+- name: Module 2
+  lessons:
+  - name: Testing Your Class
+    exercise: 20_Module_2/10_Testing_Your_Class.ipynb
