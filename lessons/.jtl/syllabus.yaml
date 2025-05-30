@@ -18,3 +18,12 @@ modules:
   - name: Testing Your Class
     uid: FeB2FgBc
     exercise: 20_Module_2/10_Testing_Your_Class.ipynb
+- name: Examples
+  lessons:
+  - name: Exercise
+    lesson: 30_Examples/10_Exercise.md
+  - name: Lesson 1
+    lesson: 30_Examples/10_Lesson_1.md
+  - name: Lesson 2
+    lesson: 30_Examples/20_Lesson_2/Lesson.md
+    exercise: 30_Examples/20_Lesson_2/Exercise.py
