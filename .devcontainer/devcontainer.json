@@ -39,7 +39,7 @@
 	"customizations": {
 	    "codespaces": {
 	      "openFiles": [
-			"README.md"
+			"lessons/10_Module_1/10_Getting_Started.ipynb"
 		  ]
 	    },
 	    "vscode": {
@@ -48,7 +48,7 @@
 	        "ms-python.debugpy",
 			"ms-python.isort",
 			"ms-toolsai.jupyter",
-			"https://github.com/league-infrastructure/league-vscode-ext/releases/download/v1.20250530.2/jtl-syllabus-v1.20250530.2.vsix"
+			"jointheleague.jtl-syllabus"
 	      ], 
 		  "settings": {
 			"python.defaultInterpreterPath": "/usr/local/bin/python",

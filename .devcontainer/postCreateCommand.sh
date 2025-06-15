@@ -1,16 +1,11 @@
 #!/bin/bash
 
-ext_url='https://github.com/league-infrastructure/league-vscode-ext/releases/download/v1.20250530.2/jtl-syllabus-v1.20250530.2.vsix'
-ext_path=/vscode/extensionsCache/jtl-syllabus.vsix
+# Update pip to the latest version
+python3 -m pip install --upgrade pip
 
-# Download the extension
-curl -L -o "$ext_path" "$ext_url"
-if [ -f "$ext_path" ]; then
-    echo "Downloaded JTL Syllabus extension to $ext_path"
+# Check if requirements.txt exists in the root of the workspace
+if [ -f "requirements.txt" ]; then
+    pip3 install -r requirements.txt
 
 else
-    echo "Failed to download JTL Syllabus extension."
-fi
 
-# Install the Python package regardless
-pipx install jtl-syllabus
