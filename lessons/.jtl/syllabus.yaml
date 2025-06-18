@@ -8,22 +8,21 @@ modules:
   lessons:
   - name: Getting Started
     uid: IUh3u37k
-    exercise: 10_Module_1/10_Getting_Started.ipynb
+    exercise: 01_Module_1/01_Getting_Started.ipynb
   - name: Lesson Structure
     uid: Xsz3sJlg
-    exercise: 10_Module_1/20_Lesson_Structure.ipynb
+    exercise: 01_Module_1/02_Lesson_Structure.ipynb
 - name: Module 2
   uid: 9rhwJebP
   lessons:
   - name: Testing Your Class
     uid: FeB2FgBc
-    exercise: 20_Module_2/10_Testing_Your_Class.ipynb
+    exercise: 02_Module_2/01_Testing_Your_Class.ipynb
 - name: Examples
   lessons:
-  - name: Exercise
-    lesson: 30_Examples/10_Exercise.md
   - name: Lesson 1
-    lesson: 30_Examples/10_Lesson_1.md
+    lesson: 03_Examples/01_Lesson_1/README.md
+    exercise: 03_Examples/01_Lesson_1/Lesson_1.py
   - name: Lesson 2
-    lesson: 30_Examples/20_Lesson_2/Lesson.md
-    exercise: 30_Examples/20_Lesson_2/Exercise.py
+    lesson: 03_Examples/02_Lesson_2/Lesson.md
+    exercise: 03_Examples/02_Lesson_2/Exercise.py
